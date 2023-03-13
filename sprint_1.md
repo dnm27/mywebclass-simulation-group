@@ -27,4 +27,4 @@ from all over the world.
 4. [Devops and Site Reliability](sprint_1_devops_sr.md)
 5. [Product Development - 20% of Project Grade](sprint_1_product_development.md)
 
-
+1. [Team managment information documented](team_management.md)
