@@ -26,3 +26,11 @@ Improved website performance and user engagement through data-driven decision-ma
 Priority:
 
 High
+
+User Stories
+[User Story 1](analytics_story1.md)
+[User Story 2](analytics_story2.md)
+[User Story 3](analytics_story3.md)
+[User Story 4](analytics_story4.md)
+[User Story 5](analytics_story5.md)
+[User Story 6](analytics_story6.md)
