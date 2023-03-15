@@ -33,3 +33,9 @@ Mitigating legal risks by ensuring compliance with GDPR regulations
 Priority:
 
 High, as compliance with GDPR regulations is essential for the website's credibility and reputation
+
+User Stories
+[User Story 1](user-stories/privacy_story1.md)
+[User Story 2](user-stories/privacy_story2.md)
+[User Story 3](user-stories/privacy_story3.md)
+[User Story 4](user-stories/privacy_story4.md)

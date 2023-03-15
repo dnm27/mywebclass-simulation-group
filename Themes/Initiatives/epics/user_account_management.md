@@ -34,6 +34,8 @@ Priority:
 High priority, as the user account management system is necessary for providing a personalized experience and tracking progress on the website.
 
 User Stories
-[User Story 1]
-[User Story 2]
-
+[User Story 1](user-stories/account_story1.md)
+[User Story 2](user-stories/account_story2.md)
+[User Story 3](user-stories/account_story3.md)
+[User Story 4](user-stories/account_story4.md)
+[User Story 5](user-stories/account_story5.md)
