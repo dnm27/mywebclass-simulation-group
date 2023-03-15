@@ -35,7 +35,7 @@ Priority:
 High priority, as the website's user-friendliness and educational content will directly impact user engagement and satisfaction.
 
 User Stories
-[User Story 1](build_story1.md)
-[User Story 2](build_story2.md)
-[User Story 3](build_story3.md)
-[User Story 4](build_story4.md)
+[User Story 1](user-stories/build_story1.md)
+[User Story 2](user-stories/build_story2.md)
+[User Story 3](user-stories/build_story3.md)
+[User Story 4](user-stories/build_story4.md)

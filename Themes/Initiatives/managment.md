@@ -62,7 +62,7 @@ Team:
 * Frontend developer
 
 # List epics related to this theme
-1. [Account Management](epics/account-management.md)
-2. [Google Analytics](epics/analytics-google.md)
-3. [Privacy](epics/privacy.md)
-4. [User Friendly](epics/user-friendly.md)
+1. [Account Management](epics/user_account_managment.md)
+2. [Google Analytics](epics/add_analytics.md)
+3. [Privacy](epics/privacy_policy_creation.md)
+4. [User Friendly](epics/build_website.md)

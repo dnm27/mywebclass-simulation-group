@@ -35,7 +35,7 @@ Priority:
 High, as compliance with GDPR regulations is essential for the website's credibility and reputation
 
 User Stories
-[User Story 1](privacy_story1.md)
-[User Story 2](privacy_story2.md)
-[User Story 3](privacy_story3.md)
-[User Story 4](privacy_story4.md)
+[User Story 1](user-stories/privacy_story1.md)
+[User Story 2](user-stories/privacy_story2.md)
+[User Story 3](user-stories/privacy_story3.md)
+[User Story 4](user-stories/privacy_story4.md)
