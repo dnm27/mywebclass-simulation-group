@@ -5,6 +5,12 @@ on:
     branches:
       - 'master'
       - 'development'
+      - 'index'
+      - 'our_stoy'
+      - 'story-add'
+      - 'acceptance'
+      - 'links'
+      - 'privacy_policy'
     tags:
       - 'v*'
 
