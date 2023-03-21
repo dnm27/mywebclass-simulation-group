@@ -6,17 +6,17 @@ Once you've chosen a deployment platform, create a new server instance. The proc
 Once you have a new server instance, you'll need to set it up. The process will depend on the platform and the server setup you need. Here's an example script for setting up a basic Node.js server on a Linux-based system:
 
 # Update the system
-sudo apt-get update
-sudo apt-get upgrade
+```sudo apt-get update```
+```sudo apt-get upgrade```
 
 # Install Node.js
-sudo apt-get install nodejs
+```sudo apt-get install nodejs```
 
 # Install NPM
-sudo apt-get install npm
+```sudo apt-get install npm```
 
 # Install PM2 process manager
-sudo npm install -g pm2
+```sudo npm install -g pm2```
 
 4. Copy the project files to the server:
 Once the server is set up, you'll need to copy the project files to the server. You can use a tool like scp to copy files from your local machine to the server.
@@ -26,12 +26,12 @@ Once the project files are on the server, navigate to the project directory and 
 Once the installation is complete, start the project using a process manager like PM2. Here's an example script for starting a Node.js project with PM2:
 
 # Start the project with PM2
-pm2 start index.js
+```pm2 start index.js```
 
 # Save the current process list
-pm2 save
+```pm2 save```
 
 # Set PM2 to start on boot
-pm2 startup systemd
+```pm2 startup systemd```
 
 That's it! These steps and scripts should help you deploy your project and set up a development server. However, some projects may have additional requirements or dependencies, so make sure to read the project's documentation carefully before getting started.
