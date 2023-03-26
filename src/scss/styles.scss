@@ -4,26 +4,94 @@
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+
+// Colors
+:root {
+  --primary-color: #071D49;
+  --secondary-color: #CC0000;
+}
+
+// Fonts
+body {
+  font-family: Arial, sans-serif;
+}
+
+// Spacing
 html {
-    overflow-y: scroll;
-  }
+  overflow-y: scroll;
+}
 
 :root {
-    --banner-height: 64px;
-  }
+  --banner-height: 64px;
+}
 
 body.banner-offset {
-    margin-top: calc(var(--bs-gutter-y) + var(--banner-height));
+  margin-top: calc(var(--bs-gutter-y) + var(--banner-height));
+}
+
+#sidebarMenu .nav-link.active {
+  text-decoration: underline;
+}
+
+footer {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 80%;
   }
 
-  #sidebarMenu .nav-link.active {
-    text-decoration: underline;
-  }
-  footer {
-    h1, h2, h3, h4, h5, h6 {
-      font-size: 80%;
-    }
-  }
+  // Adjust spacing
+  padding: 50px;
+  margin-top: 100px;
+}
 
- 
+// Customize Bootstrap classes to use new colors
+.navbar-dark {
+  background-color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.alert-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #fff;
+}
+
+.alert-secondary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: #fff;
+}
+
+// Header colors
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
