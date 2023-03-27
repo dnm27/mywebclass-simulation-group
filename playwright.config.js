@@ -1,6 +1,11 @@
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test')
 
+const config = {
+  use: {
+    video: 'on',
+  },
+};
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
